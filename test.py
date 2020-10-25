@@ -11,7 +11,7 @@ RelatedTopics = ["Washington","Adams","Jefferson","Madison","Monroe","Adams","Ja
 
 
 def test_presidents():
-    assert RelatedTopics == r.text
+    assert [ele for ele in RelatedTopics if(ele in r.text)] 
         
     
     

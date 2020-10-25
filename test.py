@@ -15,7 +15,7 @@ list = ["George Washington","John Adams",
 
 
 def test_presidents():
-    assert  any(list in s for s in r.text)
+    assert (list in r.text) == True
         
     
     
